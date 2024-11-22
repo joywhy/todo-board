@@ -14,3 +14,4 @@ npx shadcn@latest add skeleton
 npx shadcn@latest add toast
 
 npm i sass
+npm i @uiw/react-markdown-editor
