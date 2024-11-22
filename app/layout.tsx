@@ -4,6 +4,7 @@ import { Toaster } from '@/components/ui/toast/toaster';
 /** 스타일 */
 import '@/public/style/globals.css';
 import '@/public/style/main.scss';
+import { AsideSection } from '@/components/common';
 
 export const metadata: Metadata = {
   title: 'TODO-BOARD 만들기',
@@ -17,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={FONT_NOTOSANSKR.className}>
-        {children}
-        {/* <div className="page">
+        {/* {children} */}
+        <div className="page">
           <AsideSection />
           <main className="page__main">{children}</main>
-        </div> */}
+        </div>
         <Toaster />
       </body>
     </html>
