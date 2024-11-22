@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 /** UI 컴포넌트 */
 import { AlertPopup, BoardCard } from '@/components/common';
 import { Button, LabelDatePicker, Progress } from '@/components/ui';
